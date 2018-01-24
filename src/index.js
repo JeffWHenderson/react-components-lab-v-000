@@ -1,4 +1,6 @@
 // Make sure to import React and ReactDOM
+import React;
+import ReactDOM;
 
 const BUTCHER_PRODUCTS = [
   'Tenderloin',
@@ -6,6 +8,17 @@ const BUTCHER_PRODUCTS = [
   'Beef shin',
   'Ribeye'
 ];
+
+// const OlderCoaster = React.createClass({
+//   render(){
+//     return React.createElement('ul', {}, [
+//       React.createElement('li', {}, 'Bananas'),
+//       React.createElement('li', {}, 'Vanilla ice cream'),
+//       React.createElement('li', {}, 'Chocolate'),
+//     ]);
+//   }
+//   }
+// })
 
 // Define these exported classes
 export class OlderCoaster extends React.Component {};
